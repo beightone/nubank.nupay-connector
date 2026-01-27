@@ -60,6 +60,17 @@ Follow the rules below **RIGOROUSLY**. Ignore generic Node.js practices that con
   - `timeout`: Default 10. For critical routes, prefer async events if possible.
 - **Cold Starts:** Avoid heavy dependencies in `package.json`.
 
+## 8. Git Strategy & Versioning
+
+- **Commit Pattern:** Strictly adhere to **Conventional Commits**.
+  - `feat(...)`: Adds a new feature (triggers v1.1.0).
+  - `fix(...)`: Fixes a bug (triggers v1.0.1).
+  - `chore(...)`: Maintenance tasks (no version bump).
+  - `refactor(...)`: Code changes without altering behavior.
+- **Branch Naming:** `type/kebab-case-description` (e.g., `feat/add-nupay-client`).
+- **Linear History:** Use **Squash and Merge** on PRs to maintain a clean history.
+- **Hotfixes:** Only use `hotfix/` if the error is immediately impacting revenue or production. Otherwise, follow the standard flow.
+
 ---
 
 ## "Gold Standard" Code Example (Hexagonal + Resilience)
