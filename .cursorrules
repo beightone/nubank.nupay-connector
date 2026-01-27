@@ -71,6 +71,15 @@ Follow the rules below **RIGOROUSLY**. Ignore generic Node.js practices that con
 - **Linear History:** Use **Squash and Merge** on PRs to maintain a clean history.
 - **Hotfixes:** Only use `hotfix/` if the error is immediately impacting revenue or production. Otherwise, follow the standard flow.
 
+## 9. Repository Governance & Security
+
+- **Branch Protection:** - Direct commits to `main` and `develop` are **strictly prohibited**.
+  - All changes must pass through a Pull Request (PR).
+- **Merge Requirements:**
+  - **CI Checks:** Build, Lint, and Unit Tests must pass (Green Build).
+  - **Code Review:** At least 1 approval from a peer is mandatory.
+  - **No Bypass:** Administrators must adhere to the same rules.
+
 ---
 
 ## "Gold Standard" Code Example (Hexagonal + Resilience)
