@@ -1,7 +1,7 @@
 {
   "name": "nupay-connector",
   "vendor": "beightone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "NuPay 2FA v2 Connector",
   "description": "NuPay 2FA v2 Payment Provider Connector for VTEX IO",
   "builders": {
