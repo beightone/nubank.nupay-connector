@@ -7,54 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.0.2] - 2026-01-30
-### Added
-- Included `customFields` option to `configuration.json`
+## [0.0.2] - 2026-01-27
 ### Changed
-- Updated README style
-- Fixed connector testing instructions
-- Improved readability
-
-## [1.2.0] - 2021-12-21
-
-## [1.1.0] - 2021-12-21
-
-## [1.0.6] - 2021-11-18
-
-### Added
-
-- New PPF flags
-
-## [1.0.5] - 2021-05-20
-
-## [1.0.5] - 2021-05-20
-### Changed
-- Updated documentation in docs folder
-
-## [1.0.4] - 2021-05-17
-
-## [1.0.4] - 2021-05-12
-### Changed
-- Updated documentation in docs folder
-
-## [1.0.3] - 2021-04-28
-### Added
-- Included documentation in docs folder
-
-## [1.0.2] - 2021-03-02
-
-## [1.0.1] - 2021-03-01
-
-## [1.0.0] - 2021-02-27
-
-## [1.0.0] - 2021-02-23
-
-### Changed
-
-- Update Payment Provider SDK version
-
-## [0.0.2] - 2020-02-28
-
-### Added
-
-- Bootstrap for creating Payment Provider Connectors on VTEX IO
+- NuPay 2FA v2 connector setup
+- manifest.json: outbound-access for api.nubank.com.br
+- paymentProvider configuration.json: name set to NuPay 2FA
