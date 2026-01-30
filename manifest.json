@@ -1,9 +1,9 @@
 {
-  "name": "payment-provider-example",
-  "vendor": "vtex",
-  "version": "1.2.0",
-  "title": "Payment Provider Example",
-  "description": "Reference app for Payment-Provider protocol implementers",
+  "name": "nupay-connector",
+  "vendor": "beightone",
+  "version": "0.0.1",
+  "title": "NuPay 2FA v2 Connector",
+  "description": "NuPay 2FA v2 Payment Provider Connector for VTEX IO",
   "builders": {
     "paymentProvider": "1.x",
     "node": "6.x",
@@ -18,13 +18,6 @@
     },
     {
       "name": "colossus-write-logs"
-    },
-    {
-      "name": "outbound-access",
-      "attrs": {
-        "host": "heimdall.vtexpayments.com.br",
-        "path": "/api/payment-provider/callback/*"
-      }
     }
   ],
   "billingOptions": {
